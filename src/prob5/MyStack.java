@@ -26,7 +26,7 @@ public class MyStack {
 
 	public String pop() throws MyStackException 
 	{
-		if (top != -1)
+		if (!isEmpty())
 		{
 			if (buffer[top] == null)
 			{
